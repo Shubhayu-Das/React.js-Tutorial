@@ -1,0 +1,11 @@
+li{
+    font: 1.5rem Helvetica;
+    border: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h1{
+    text-align: center;
+}

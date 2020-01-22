@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Slightly smarter way</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Slightly smarter way</h1>
+  <ul></ul>
+  <script>
+    const list = document.querySelector("ul");
+    for(let i = 0; i < 10; i++){
+        const item = document.createElement("li");
+        item.innerHTML = `item ${i}`;
+        list.appendChild(item);
+    }
+  </script>
+</body>
+
+</html>
+
